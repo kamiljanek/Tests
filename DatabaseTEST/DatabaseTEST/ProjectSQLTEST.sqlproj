@@ -60,11 +60,13 @@
     <Folder Include="dbo\Table" />
     <Folder Include="PublishLocations" />
     <Folder Include="dbo\Views" />
+    <Folder Include="dbo\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Table\URL.sql" />
     <Build Include="dbo\Table\SettingsInformation.sql" />
     <Build Include="dbo\Views\ULRWithMeanings.sql" />
+    <Build Include="dbo\Stored Procedures\spURL_FilterByHours.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ProjectSQLTEST.refactorlog" />

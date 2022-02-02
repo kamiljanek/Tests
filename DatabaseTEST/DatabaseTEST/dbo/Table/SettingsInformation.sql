@@ -2,5 +2,5 @@
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [SettingsOwner] NVARCHAR NULL, 
-    [DateOINTate] DATE NULL
+    [Date] INT NULL, 
 )
