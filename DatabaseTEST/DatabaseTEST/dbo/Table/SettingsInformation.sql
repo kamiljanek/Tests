@@ -1,6 +1,7 @@
 ﻿CREATE TABLE [dbo].[SettingsInformation]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [SettingsOwner] NVARCHAR NULL, 
-    [Date] INT NULL, 
+    [SettingsOwnerFirstName] NVARCHAR(50) NULL, 
+    [SettingsOwnerSecongName] NVARCHAR(50) NULL, 
+    [Date] DATE NULL, 
 )

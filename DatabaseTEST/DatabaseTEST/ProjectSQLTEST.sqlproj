@@ -67,6 +67,7 @@
     <Build Include="dbo\Table\SettingsInformation.sql" />
     <Build Include="dbo\Views\ULRWithMeanings.sql" />
     <Build Include="dbo\Stored Procedures\spURL_FilterByHours.sql" />
+    <Build Include="dbo\Stored Procedures\spURL_FilterByForecastType.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ProjectSQLTEST.refactorlog" />

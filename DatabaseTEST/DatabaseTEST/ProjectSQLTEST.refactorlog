@@ -35,4 +35,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="SettingsOwner" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="ac90a0d3-39c8-49aa-a842-f482babf4a73" ChangeDateTime="02/02/2022 22:04:55">
+    <Property Name="ElementName" Value="[dbo].[SettingsInformation].[SettingsOwner]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SettingsInformation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[SettingsOwnerFirstName]" />
+  </Operation>
 </Operations>
