@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="5c99b427-4518-4510-97d3-09dbcfd1129b" ChangeDateTime="02/02/2022 10:56:35">
+    <Property Name="ElementName" Value="[dbo].[ULRTable]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ULR]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="57101165-7e49-4831-bc96-b2edc87142d1" ChangeDateTime="02/02/2022 12:01:17">
+    <Property Name="ElementName" Value="[dbo].[ULR].[OwnerSettings]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ULR]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SettingsOwner" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="eb5d136c-65ea-41f3-96c1-549cf3d6ee2d" ChangeDateTime="02/02/2022 12:01:32">
+    <Property Name="ElementName" Value="[dbo].[ULR].[ULRadress]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ULR]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ULRAdress" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9fdbe7ea-71eb-4231-8380-65509abfdfed" ChangeDateTime="02/02/2022 12:03:02">
+    <Property Name="ElementName" Value="[dbo].[ULR].[SettingsOwner]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ULR]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Day" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6388e319-4569-4544-a00d-c20c43d66ba8" ChangeDateTime="02/02/2022 12:14:36">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Settings]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SettingsOwner" />
+  </Operation>
+</Operations>
